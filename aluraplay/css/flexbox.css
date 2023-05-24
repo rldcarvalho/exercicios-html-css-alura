@@ -60,12 +60,28 @@
     flex-flow: column wrap;  
 }
 
-@media (min-width: 768px) {
+@media (min-width: 834px) {
 
     /* CABEÇALHO */
 
     .cabecalho__pesquisar__item {
         display: block;
+    }
+
+    /* MENU */
+
+    .menu__container {
+        left: 0%;
+        height: auto;
+        width: 74px;
+        top: 80px
+    }
+    
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 33px;
+        padding-top: 15px;
     }
 
     /* RODAPÉ */
