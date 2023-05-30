@@ -142,4 +142,16 @@ nav ul li a:hover {
 #cupom button:hover {
   background-color: #74959a;
   border: 2px #495371;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #495371;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #495371, #74959a, #f1e0ac, #495371);
+}
+footer i {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
