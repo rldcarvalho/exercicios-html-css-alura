@@ -43,4 +43,22 @@ nav ul li a:hover {
   font-size: 1.5rem;
   color: #74959a;
   text-align: center;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #74959a;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
