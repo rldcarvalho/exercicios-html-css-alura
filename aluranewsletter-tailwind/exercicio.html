@@ -6,12 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              titulo: ["Vast Shadow", "cursive"],
+            },
+            colors: {
+              primary: "#c5fec6",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
     <div
       class="p-10 m-auto my-10 bg-gradient-to-r from-green-300 to-slate-400 w-2/5 justify-center shadow-2xl"
     >
-      <p class="text-6xl font-black">Rafael</p>
+      <p class="text-6xl font-black font-titulo text-primary">Rafael</p>
       <p class="text-4xl">Desenvolvedor Front-end</p>
     </div>
   </body>
