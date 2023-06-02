@@ -45,6 +45,20 @@
   grid-area: botao;
 }
 
+/* AGENDA */
+
+.agenda__item {
+  display: grid;
+  grid-template-areas:
+    "imagem imagem"
+    "data nome"
+    "data botao";
+}
+
+.agenda__item img {
+  grid-area: imagem;
+}
+
 @media (min-width: 720px) {
   /* BANNER */
 
