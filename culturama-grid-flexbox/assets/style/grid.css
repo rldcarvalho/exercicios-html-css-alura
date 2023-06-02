@@ -13,6 +13,10 @@
 }
 
 @media (min-width: 720px) {
+  .banner {
+    column-gap: 1.5rem;
+  }
+
   .banner img:nth-child(1) {
     grid-column: 1/3;
     grid-row: 1/3;
